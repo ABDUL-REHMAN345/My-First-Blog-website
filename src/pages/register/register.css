@@ -1,0 +1,68 @@
+.Register{
+    height: calc(100vh -50px);
+    background:
+    linear-gradient(
+        rgba(215, 210, 210, 0.5),
+        rgba(224, 220, 220, 0.5)
+    ), 
+    url(https://www.onblastblog.com/wp-content/uploads/2018/05/free-images-for-blogs.jpeg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+ height: 95vh;
+ margin-right: 0px;
+}
+.RegisterTitle{
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+font-family: "Lora Round", serif;
+}
+.RegisterForm{
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+margin-top: 20px;
+}
+
+.RegisterForm > label{
+    margin-top: (10px , 0);
+    align-items: center;
+    font-size: large;
+    padding-top: 10px;
+}
+.RegisterInput{
+    padding:20px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+.RegisterButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.RegisterRegisterButton{
+    position: absolute;
+    top: 5%;
+    right: 0px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 6px;
+}
+.RegisterButton:hover{
+    color: aqua;
+}
+
+
